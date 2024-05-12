@@ -1,0 +1,40 @@
+.num-list-item {
+  list-style-type: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  margin: 10px;
+}
+.active-button {
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eff6ff;
+  border: 1px solid #60a5fa;
+  color: #64748b;
+}
+.answered-button {
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7c599f26;
+  border: 1px solid #7c599f;
+  color: #64748b;
+}
+.normal-button {
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafbfe;
+  border: 1px solid #e2e8f0;
+  color: #64748b;
+}

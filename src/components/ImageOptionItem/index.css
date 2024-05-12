@@ -1,0 +1,32 @@
+.list-image-item-style {
+  list-style-type: none;
+  margin: 10px;
+  width: 320px;
+  height: 100px;
+}
+.normal-image-style {
+  border: none;
+  width: 99%;
+  height: 99%;
+  outline: none;
+  cursor: pointer;
+}
+.active-image-style {
+  border: 2px solid #263868;
+  width: 99%;
+  height: 99%;
+  outline: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.image-style {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 767px){
+  .list-image-item-style{
+    width: 90%;
+    height: 58px;
+  }
+}

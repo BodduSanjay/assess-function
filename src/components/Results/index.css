@@ -1,0 +1,122 @@
+.results-bg-container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+.results-down-container {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.results-cart-cont {
+  width: 818px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #7b879429;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px 20px 10px;
+}
+.submit-image {
+  width: 485px;
+  height: 364px;
+  margin-bottom: 20px;
+}
+.submit-heading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #334155;
+  margin-bottom: 20px;
+}
+.submit-para {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #334155;
+  margin-bottom: 20px;
+}
+.submit-timer-para {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #164687;
+}
+.score-title {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #164687;
+  margin-bottom: 20px;
+}
+.score-para {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: #044682;
+}
+.reattempt-button {
+  width: 130px;
+  height: 40px;
+  padding: 8px 32px 8px 32px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  background-color: #164687;
+}
+
+@media (max-width: 767px) {
+  .results-cart-cont {
+    width: 95%;
+  }
+  .submit-image {
+    width: 230px;
+    height: 170px;
+    margin-bottom: 15px;
+  }
+  .submit-heading {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .submit-para {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .submit-timer-para {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .score-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .score-para {
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+  }
+}

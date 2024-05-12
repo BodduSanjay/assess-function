@@ -1,0 +1,182 @@
+.bg-div {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fafbfe;
+}
+.login-form {
+  width: 456px;
+  height: 468px;
+  top: 278px;
+  left: 492px;
+  gap: 0px;
+  border-radius: 8px;
+  opacity: 0px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 16px 0px #7b879429;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-logo {
+  width: 98px;
+  height: 56px;
+  top: 326px;
+  left: 671px;
+  gap: 0px;
+  opacity: 0px;
+}
+.input-container {
+  width: 360px;
+  height: 64px;
+  top: 430px;
+  left: 540px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.user-name-label {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  width: 65px;
+  height: 16px;
+  gap: 0px;
+  opacity: 0px;
+  color: #7e858e;
+}
+.input-el {
+  width: 360px;
+  height: 40px;
+  top: 24px;
+  gap: 0px;
+  border-radius: 2px;
+  border: 1px solid gray;
+  opacity: 0px;
+  background-color: #ffffff;
+  cursor: text;
+}
+.input-container-2 {
+  width: 360px;
+  height: 64px;
+  top: 518px;
+  left: 540px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.checkbox-container {
+  display: flex;
+  width: 124px;
+  height: 24px;
+  top: 586px;
+  left: 540px;
+  padding: 0px 5px 0px 0px;
+  gap: 0px;
+  opacity: 0px;
+}
+.checkbox-el {
+  width: 16px;
+  height: 16px;
+  gap: 0px;
+  border-radius: 2px;
+  border: 1px solid gray;
+  opacity: 0px;
+  padding-right: 5px;
+  cursor: pointer;
+}
+.show-password-label {
+  font-family: HK Grotesk;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.login-button {
+  width: 360px;
+  height: 40px;
+  top: 658px;
+  left: 540px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: #263868;
+  color: white;
+  cursor: pointer;
+}
+.error-message {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.41px;
+  text-align: left;
+  color: #ef4444;
+  padding-top: 5px;
+}
+
+@media (max-width: 767px) {
+  .login-form {
+    height: 100%;
+    width: 100%;
+    box-shadow: none;
+  }
+  .login-logo {
+    width: 98px;
+    height: 56px;
+    top: 134px;
+    left: 131px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .input-container {
+    width: 312px;
+    height: 64px;
+    top: 238px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .input-el {
+    width: 312px;
+    height: 40px;
+    top: 24px;
+    gap: 0px;
+    border-radius: 2px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+  }
+  .input-container-2 {
+    width: 312px;
+    height: 64px;
+    top: 326px;
+    left: 24px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .checkbox-container {
+    width: 124px;
+    height: 24px;
+    top: 394px;
+    left: 24px;
+    padding: 0px 5px 0px 0px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .login-button {
+    width: 312px;
+    height: 40px;
+    top: 466px;
+    left: 24px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+  }
+}
